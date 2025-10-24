@@ -1,16 +1,53 @@
-# React + Vite
+# 📝 Redux Toolkit Todo App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a simple and clean Todo app I built using **React** and **Redux Toolkit**.  
+I created this project to understand how global state management actually works — how actions, reducers, and slices connect together to handle data in a React app.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 What the App Does
 
-## React Compiler
+It’s a basic CRUD app (Create, Read, Update, Delete) for managing tasks:
+- ✨ Add new todos  
+- 📝 Edit existing todos  
+- ❌ Delete tasks  
+- 💾 All data stays in global state using Redux Toolkit
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+The goal wasn’t to build a big app, but to **strengthen my Redux fundamentals**.
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 💡 What I Learned
+
+While making this, I finally understood:
+- The difference between **local state (useState)** and **global state (Redux)**  
+- How `useSelector` gets data from the store  
+- How `useDispatch` triggers actions  
+- How reducers update state in an immutable way  
+- The importance of organizing logic in slices for scalability
+
+This project helped me become more confident with Redux Toolkit and React hooks.
+
+---
+
+## 🛠️ Tech Stack
+
+- **React.js** – for building UI  
+- **Redux Toolkit** – for state management  
+- **Tailwind CSS** – for fast, clean styling  
+
+---
+
+## 🧩 How to Run the Project
+
+1. Clone the repository  
+   ```bash
+   git clone https://github.com/yourusername/redux-toolkit-todo-app.git
+2. Move into the folder
+   cd redux-toolkit-todo-app
+3. Install dependencies
+   npm install
+4. Start the app
+   npm run dev
+This was one of the first apps that really helped me understand the flow of data in React.
+It might look simple, but for me it was a turning point — I learned how to make things dynamic, manage updates, and handle global state properly.
