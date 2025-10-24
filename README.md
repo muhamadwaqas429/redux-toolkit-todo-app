@@ -44,10 +44,13 @@ This project helped me become more confident with Redux Toolkit and React hooks.
    ```bash
    git clone https://github.com/yourusername/redux-toolkit-todo-app.git
 2. Move into the folder
-3. cd redux-toolkit-todo-app
+ ```bash
+ cd redux-toolkit-todo-app
 4. Install dependencies
-5. npm install
+ ```bash
+ npm install
 6. Start the app
-7. npm run dev
+ ```bash
+ npm run dev
 This was one of the first apps that really helped me understand the flow of data in React.
 It might look simple, but for me it was a turning point — I learned how to make things dynamic, manage updates, and handle global state properly.
